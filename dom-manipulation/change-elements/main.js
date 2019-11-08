@@ -31,5 +31,10 @@ console.log(title.style)
 title.innerText = "Hello Class"
 title.style.color = "hotpink"
 
+const catPicture  = document.getElementById('cat-picture')
+console.log(catPicture);
+
+catPicture.src = "https://d1dd4ethwnlwo2.cloudfront.net/wp-content/uploads/2019/10/cinderblock-exercise-4.jpg"
+
 
 
